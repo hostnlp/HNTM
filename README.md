@@ -1,4 +1,4 @@
-####Datasets
+#### Datasets
 The raw datasets used in the paper can be downloaded via:
 
 20NEWS:   
@@ -13,7 +13,7 @@ https://www.salesforce.com/products/einstein/ai-research/the-wikitext-dependency
 We use the same preprocessing steps as described in Miao et al. (2016), Wu et al. (2020), Nan et al. (2019) to obtain the vocabulary of 20NEWS, Reuters and Wikitext-103 respectively.
 
 
-####Model
+#### Model
 The model can be trained on Reuters by running:
 
     python HNTM.py
@@ -30,6 +30,6 @@ batch\_size = 64
 n\_epoch = 100  
 hidden\_size = 256
 
-####Requirements
+#### Requirements
 tensorflow==1.12.0  
 numpy==1.14.5
